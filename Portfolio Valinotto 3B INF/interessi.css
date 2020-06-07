@@ -1,0 +1,20 @@
+body {
+    background-image: url("img/cop_informatica.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #c2e5e1;
+}
+.container{
+    background-color: white;
+    border-radius: 30px;
+}
+b{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h3{
+    color: darkcyan;;
+}
+span{
+    margin-top: 60px;
+}

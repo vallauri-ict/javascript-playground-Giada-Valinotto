@@ -1,0 +1,15 @@
+.carousel-item {
+    height: 90vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    background-image: url("img/cop_informatica.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #c2e5e1;
+}

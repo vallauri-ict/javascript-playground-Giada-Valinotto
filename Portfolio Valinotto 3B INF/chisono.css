@@ -1,0 +1,19 @@
+
+body {
+    background: url('img/cop_informatica.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.titolo{
+    font-size: 60px;
+    color: darkcyan;
+}
+.sottotitolo{
+    font-size: 20px;
+}
+a{
+    color: darkcyan;
+}
