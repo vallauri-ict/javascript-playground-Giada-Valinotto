@@ -1,0 +1,15 @@
+.head {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('img/OBV5.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.subtitle {color: #FFFFFF;
+    text-shadow: 4px 6px 3px #47472f;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}

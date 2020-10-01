@@ -1,0 +1,26 @@
+html{
+    height:  100%;
+}
+
+body{
+    background-color: #CCC;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+#wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+}
+
+#wrapper h1{
+    text-align: center;
+}
+
+#wrapper div{
+    padding: 10px;
+}

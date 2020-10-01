@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<style>
+	    #wrapper{
+		   width:350px;
+		   margin:10px auto;
+		   overflow:auto;
+		   padding:20px;
+		   border:1px solid black;
+		}
+		label{
+			width:150px;
+			float:left;
+			margin:10px;
+		    text-align:right;
+			font-size:14pt;
+		}
+		div label{
+		    text-align:left;
+			margin:0;
+			margin-top:15px;
+		}
+	    input{
+			width:150px;
+			float:left;
+			margin:10px;
+			height:18px;
+		}
+		
+		/* captcha */
+		div{
+		   width:150px;
+		   height:84px;
+		   padding:0;
+		   margin:10px;
+		   float:left;
+		}	
+	    #divCaptcha{
+		   background-image:url(img.png);
+		   color:rgb(25, 170, 150);		   
+		   line-height:84px;
+		   text-align:center;
+		   font-size:35pt;
+		   font-style: oblique;
+		}
+		#txtCaptcha{		
+		    margin-left:0; 
+		}
+		
+		input[type=button]{
+			float:right;
+			margin-right:15px;
+		}
+	</style>
+	<script type="text/javascript" src="index.js"> </script>
+</head>
+	
+<body>
+    <h1 align="center">Registrati</h1>
+	<form id="wrapper">
+	    <label for="txtName"> scegli nome: </label>
+		<input type="text" id="txtNome" name="txtNome"/> 
+	    <label for="txtPwd"> scegli password: </label>
+		<input type="text" id="txtPwd" name="txtPwd"/> 
+		<div id="divCaptcha"> </div>
+		<div> 
+		    <label for="txtCaptcha">inserisci captcha: </label> 
+			<input type="text" id="txtCaptcha" />
+		</div>
+		<br clear="both">
+		<input type="button" value="Invia" onclick="checkform()"/>
+	</form>
+</body>
+</html>
