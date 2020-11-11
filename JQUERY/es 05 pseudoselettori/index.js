@@ -9,7 +9,17 @@ $(document).ready( function(){
 		   elabara($(this), i);			
 		visualizza("-----------------------")	
 	   
-
+			//verifico se l'elemento corrente è di tipo p
+			if($(this).is("p"))
+			visualizza("Sono un tag p");
+			if($(this).is("#blu, #rosso"))
+			//NB: USARE SEMPRE INCLUDES E NON CONTAINS!!
+			visualizza("Sono l'elemento "+ $(this).html())
+			if($(this).html().includes("my Div"))
+			visualizza("Il mio testo è my Div");
+			//if($(this).is(":contains ('myDiv')"))
+			if($(this).html().includes('</span>'))
+			visualizza("Al mio interno c'è un tag span");
 	});
 
 
