@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+label{
+    display: block;
+}
+
+form{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: gray;
+    width: 400px;
+    height: 100px;
+}
+
+#txtUtente:hover{
+    border: 1px solid blue;
+    background-color: #CFF;
+}
+
+#txtPassword:hover{
+    border: 1px solid blue;
+    background-color: #CFF;
+}
+
+#lblUtente, #lblPassword{
+    display: inline;
+}
+
+#txtUtente{
+    margin-top: 5px;
+}
+
+#lblUser{
+    margin-top: 5px;
+}
+
+#btnLogin{
+    display: block;
+    margin: 0 auto;
+}
+
+#lblUser, #lblPwd{
+    margin-left: 10px;
+}
